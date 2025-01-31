@@ -6,3 +6,4 @@
 - [Tabler Icons](https://tabler.io/icons)
 - [Inter Font](https://fonts.google.com/specimen/Inter)
 - [Unsplash](https://unsplash.com/)
+- Some images are from pinterest
