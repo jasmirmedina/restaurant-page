@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../../assets/images/janko-ferlic-h9Iq22JJlGk-unsplash.webp);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: color
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 46px;
+}
+
+.home-content > div:first-child {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.home-content > div:last-child {
+  padding: 10px;
+}
+
+.home-content > div:last-child > button {
+  font-family: "Inter", system-ui;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-content > div:last-child > button:hover {
+  opacity: 0.9;
+  transition-duration: 200ms;
+}
+
+.home-content > div:first-child > p:first-child {
+  font-weight: 100;
+}
+
+.home-content > div:first-child > p:last-child {
+  color: var(--red);
+}
+
+.divider-one {
+  transform: scaleX(-1);
+}
+
+.divider-two {
+  transform: scaleY(-1);
+  bottom: 0;
+}

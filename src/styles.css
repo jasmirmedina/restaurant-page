@@ -1,0 +1,28 @@
+@import url(./css/reset.css);
+
+@import url(./css/navbar.css);
+@import url(./css/home.css);
+
+@font-face {
+  font-family: "Inter";
+  src: url(../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+:root {
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --text: #cdd6f4;
+  --subtext: #a6adc8;
+  --overlay: #6c7086;
+  --surface: #313244;
+  --red: #f38ba8;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  background-color: var(--base);
+  color: var(--text);
+  font-family: "Inter", system-ui;
+}
