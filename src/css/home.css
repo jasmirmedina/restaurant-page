@@ -45,6 +45,10 @@
 
 .home-content > div:first-child > p:last-child {
   color: var(--red);
+  background: linear-gradient(95deg, var(--red), var(--text));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .divider-one {
