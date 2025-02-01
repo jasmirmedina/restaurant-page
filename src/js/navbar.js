@@ -14,4 +14,4 @@ for (const el of lis) {
 
 navbar.appendChild(ul);
 
-export { navbar };
+export { navbar, ul };
