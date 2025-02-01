@@ -1,4 +1,8 @@
 # Restaurant Page
+Page made as a practice of handling npm, javascript modules and webpack, following the course [The Odin Project](https://www.theodinproject.com).
+
+## Live:
+![demo](assets/images/demo.png)
 
 ### Resources:
 - [minireset.css](https://jgthms.com/minireset.css/)
